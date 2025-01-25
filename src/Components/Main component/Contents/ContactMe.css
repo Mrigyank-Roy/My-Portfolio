@@ -1,0 +1,151 @@
+/* ************************* */
+/* CONTACT */
+/* ************************* */
+.contactSection {
+  padding: 3.6rem 0 8.6rem 0;
+}
+
+.contact-container {
+  max-width: 105rem;
+  margin: 2rem auto;
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 2rem;
+}
+
+/* ************************* */
+/* CONTACT-IMG */
+/* ************************* */
+.contact-content .contact-img {
+  max-width: 60%;
+  margin-left: 4rem;
+  border-radius: 0.8rem;
+}
+
+.contact-img img {
+  width: 100%;
+  height: 40rem;
+  position: relative;
+}
+
+/* ************************* */
+/* CONTACT-FORM */
+/* ************************* */
+.contact-content form {
+  width: 45%;
+  margin-right: 3.5rem;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.form-group .field {
+  height: 5rem;
+  display: flex;
+  position: relative;
+  margin: 1rem;
+  width: 100%;
+}
+
+/* ************************* */
+/* CONTACT-SVG */
+/* ************************* */
+.form-icon {
+  height: 2.4rem;
+  width: 1.8rem;
+}
+
+form .form-icon {
+  position: absolute;
+  top: 50%;
+  left: 1.8rem;
+  font-size: 1.6rem;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+/* ************************* */
+/* CONTACT-INPUT */
+/* ************************* */
+form .field input,
+form .message textarea {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 0 1.6rem 0 4.8rem;
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  border-radius: 0.6rem;
+}
+
+.field input:focus,
+.message textarea:focus {
+  padding-left: 4.8rem;
+}
+
+form .message {
+  position: relative;
+  margin: 1rem;
+  width: 100%;
+}
+
+form .message .form-icon {
+  top: 2.4rem;
+  font-size: 2rem;
+  left: 1.6rem;
+}
+
+form .message textarea {
+  min-height: 13rem;
+  max-height: 23rem;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 1.2rem 2rem 0 4.8rem;
+}
+
+form .message textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+/* ************************* */
+/* CONTACT-SUBMIT-BTN */
+/* ************************* */
+form .button-area {
+  display: flex;
+  float: right;
+  flex-direction: row-reverse;
+}
+
+.button-area button {
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 1.2rem 2.4rem;
+  transition: 0.3s ease;
+  font-family: "Sen", sans-serif;
+}
+
+/* ************************* */
+/* ERROR-MESSAGE */
+/* ************************* */
+.error {
+  width: 40rem;
+  font-family: "Sen";
+  font-size: 1.4rem;
+
+  position: absolute;
+  bottom: -2rem;
+  left: 1.2rem;
+}

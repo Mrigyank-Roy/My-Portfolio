@@ -1,0 +1,134 @@
+/* ************************* */
+/* HERO */
+/* ************************* */
+
+.hero-section {
+  margin-top: 6.5rem;
+  padding: 4.8rem;
+  font-family: "Rubik", sans-serif;
+  height: 100vh;
+ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+/* ************************* */
+/* MY-INFO */
+/* ************************* */
+
+.my-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.2rem;
+  padding: 4.2rem;
+  font-size: 5.8rem;
+  font-weight: 600;
+}
+
+/* ************************* */
+/* AUTO-TYPING */
+/* ************************* */
+
+.dynamic {
+  display: flex;
+  gap: 0.6rem;
+
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.dynamic p span {
+  font-weight: 700;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* ************************* */
+/* ABOUT ME BTN */
+/* ************************* */
+
+.about-me-link {
+  text-decoration: none;
+  padding: 1.2rem 2.2rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  border-radius: 0.8rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  width: 20rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.down-arrow-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+/* ************************* */
+/* SOCIAL-ICON */
+/* ************************* */
+
+.social-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.my-link-list {
+  list-style: none;
+  height: 5rem;
+  width: 40rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.8rem;
+}
+
+.my-link:link,
+.my-link:visited {
+  text-decoration: none;
+}
+
+.my-link-list a span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ************************* */
+/* MEMOJI */
+/* ************************* */
+
+.memoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memoji-item {
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: inset 0 0 1.8rem 0.4rem rgba(25, 25, 25, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.memoji-item img {
+  display: block;
+  height: 50.4rem;
+  width: 50.4rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.memoji-item img:hover {
+  transform: scale(1.03);
+}

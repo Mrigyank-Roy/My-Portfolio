@@ -1,0 +1,373 @@
+/* 
+This CSS file defines the color palette for the project. All color variables for components and elements are centralized here for consistency and ease of maintenance.
+It includes:
+
+- Primary, Secondary, and Accent colors.
+
+- Neutral colors for backgrounds, text, and borders.
+
+Use these variables to ensure uniform styling across the project. Adjustments can be made here for global updates.
+*/
+
+/* ************************* */
+/* ROOT-COLOR-VARs */
+/* ************************* */
+:root {
+  --CrystalWhite: #ffffff;
+  --GreyWhite: #eeeeee;
+  --BabyBlue: #e7f2f8;
+  --Aquamarine: #74bdcb;
+  --Salmon: #ffa384;
+  --Freesia: #efe7bc;
+
+  /* Tints */
+  --AquamarineTint: #e3f2f5;
+  --BabyBlueTint: #51848e;
+  --BlurWhite: #ffffffd9;
+
+  /* ----COLORS----- */
+  --Black: #000000;
+  --LightBlack: #0d0d0d;
+  --LightGrey: #767676;
+  --LightColorGrey: #555555;
+  --DarkGrey: #333333;
+  --VreyDarkGrey: #1a1a1a;
+  --PecockBlue: #183c43;
+  --PeseantBrown: #7a1f00;
+}
+
+/* All header-secondary */
+.heading-secondary {
+  color: var(--Black);
+}
+
+.heading-secondary span {
+  color: var(--PeseantBrown);
+}
+
+/* ************************* */
+/* HEADER COMPONENTS CSS-FILE */
+/* ************************* */
+.header {
+  color: var(--DarkGrey);
+}
+
+#navArea {
+  background-color: var(--BabyBlue);
+}
+
+#navArea.is-sticky {
+  background-color: var(--Aquamarine);
+  box-shadow: 0px 1px 8px 1px var(--Aquamarine);
+  color: var(--Black);
+  border-radius: 0px 0px 8px 8px;
+}
+
+#navArea.is-sticky .main-nav-list li a:hover {
+  color: var(--DarkGrey);
+}
+
+.main-nav-list li a:hover {
+  color: var(--Black);
+}
+
+.main-nav-list li .main-nav-link::before {
+  background-color: var(--VreyDarkGrey);
+}
+
+/* ************************* */
+/* HERO COMPONENTS CSS-FILE */
+/* ************************* */
+.hero-section {
+  background-color: var(--BabyBlue);
+}
+
+.greeting {
+  color: var(--Black);
+}
+
+.my-name {
+  color: var(--VreyDarkGrey);
+}
+
+.my-name span,
+.dynamic p:last-child,
+.dynamic p span {
+  color: var(--PecockBlue);
+}
+
+.about-me-link {
+  color: var(--VreyDarkGrey);
+  background-color: var(--Aquamarine);
+  box-shadow: 0px 0px 6px 1px var(--Aquamarine);
+}
+
+.about-me-link:hover,
+.about-me-link:active {
+  background-color: var(--BabyBlueTint);
+  box-shadow: 0px 0px 5px 1px var(--BabyBlueTint);
+  color: var(--CrystalWhite);
+}
+
+.my-link-list span:hover {
+  background-color: var(--Aquamarine);
+}
+
+.social-icon:hover {
+  filter: invert(1);
+}
+
+.memoji-item:hover {
+  background-color: var(--Freesia);
+}
+
+/* ************************* */
+/* ABOUT-ME COMPONENTS CSS-FILE */
+/* ************************* */
+.aboutMeSection {
+  background-color: var(--CrystalWhite);
+}
+
+.memoji-working {
+  box-shadow: 0px 0px 18px 4px rgba(25, 25, 25, 0.05);
+}
+
+.memoji-working:hover {
+  background-color: var(--Freesia);
+  /* box-shadow: -4px 1px 37px 4px var(--Freesia); */
+  box-shadow: inset 0px 0px 18px 4px #1919190d;
+}
+
+.content .desc {
+  color: var(--DarkGrey);
+}
+
+.contact-link:link span,
+.contact-link:visited span,
+.place span {
+  color: var(--BabyBlueTint);
+}
+
+.contact-link:hover span,
+.contact-link:active span,
+.place:hover span {
+  color: var(--PeseantBrown);
+}
+
+.contact-link:link span:last-child,
+.contact-link:visited span:last-child,
+.place span:last-child {
+  color: var(--VreyDarkGrey);
+}
+
+.res-link:link,
+.res-link:visited {
+  color: var(--Black);
+  background-color: var(--Aquamarine);
+  box-shadow: 0px 0px 5px 1px var(--Aquamarine);
+}
+
+.res-link:hover,
+.res-link:active {
+  color: var(--CrystalWhite);
+  background-color: var(--BabyBlueTint);
+  box-shadow: 0px 4px 5px 0px var(--BabyBlueTint);
+}
+
+/* ************************* */
+/* SKILLS COMPONENTS CSS-FILE */
+/* ************************* */
+.skillsSection {
+  background: linear-gradient(304deg, var(--Salmon) 0%, var(--Freesia) 100%);
+}
+
+.skills-container {
+  color: var(--VreyDarkGrey);
+}
+
+.bar {
+  box-shadow: 1px 1px 10px 1px #00000040;
+  background-color: var(--AquamarineTint);
+}
+
+.bar:hover {
+  box-shadow: 0px 4px 5px 0px #00000040;
+  color: var(--CrystalWhite);
+  background-color: var(--PecockBlue);
+}
+
+.bar:hover .filter {
+  filter: brightness(0) invert(1);
+}
+
+/* ************************* */
+/* MY-EDU COMPONENTS CSS-FILE */
+/* ************************* */
+.eduSection {
+  background: var(--BabyBlue);
+}
+
+.edu-contents {
+  border-left: 2px solid #bababa;
+}
+
+.edu-box {
+  border: 1px solid #eaeaea;
+  background-color: var(--CrystalWhite);
+}
+
+.edu-box:hover {
+  box-shadow: 0px 3px 12px 0px #ccccccbf;
+}
+
+.edu-box::before {
+  background-color: var(--PeseantBrown);
+  border: 2px solid var(--BlurWhite);
+}
+
+.edu-box h4 {
+  color: var(--PeseantBrown);
+}
+
+.edu-box h3 {
+  color: var(--VreyDarkGrey);
+}
+
+.edu-box p {
+  color: var(--LightColorGrey);
+}
+
+.edu-container .edu-contents .edu-box .location {
+  color: var(--LightGrey);
+}
+
+/* ************************* */
+/* PROJECTS COMPONENTS CSS-FILE */
+/* ************************* */
+.proSection {
+  background: linear-gradient(304deg, var(--Salmon) 0%, var(--Freesia) 100%);
+}
+
+.box-content {
+  background: var(--BlurWhite);
+}
+
+.box-content .tag {
+  background: var(--Salmon);
+}
+
+.pro-btns .pro-btn {
+  color: var(--Black);
+  background: var(--Salmon);
+}
+
+.pro-btns .pro-btn:hover {
+  background: #cc826a;
+}
+
+.pro-icon {
+  fill: var(--LightBlack);
+}
+
+/* ************************* */
+/* CONTACT COMPONENTS CSS-FILE */
+/* ************************* */
+
+/* ERROR-MESSAGE */
+.error {
+  color: #c40639;
+}
+
+.contact-container {
+  background: linear-gradient(304deg, var(--Salmon) 0%, var(--Freesia) 100%);
+  box-shadow: 0 5px 10px #00000026;
+}
+
+form .form-icon {
+  fill: var(--DarkGrey);
+}
+
+form .field input,
+form .message textarea {
+  border: 1px solid var(--DarkGrey);
+  background: var(--GreyWhite);
+}
+
+.field input::placeholder,
+.message textarea::placeholder {
+  color: var(--DarkGrey);
+}
+
+.field input:focus,
+.message textarea:focus {
+  box-shadow: 0 0 0 0.6rem rgba(230, 125, 34, 0.5);
+}
+
+.field input:focus ~ .form-icon,
+.message textarea:focus ~ .form-icon {
+  fill: var(--VreyDarkGrey);
+}
+
+.button-area button {
+  color: var(--CrystalWhite);
+  background: var(--PeseantBrown);
+  box-shadow: 0px 5px 10px #7a1f0099;
+}
+
+.button-area button:hover {
+  background: #621900;
+}
+
+.button-area button .form-icon {
+  color: var(--CrystalWhite);
+}
+
+/* ------------------------ */
+
+/* ************************* */
+/* FOOTER COMPONENTS CSS-FILE */
+/* ************************* */
+/* -----SOCIAL-LINK-FOR-FOOTER----- */
+.foot-container .foot-box .my-link-list span:hover {
+  background-color: var(--GreyWhite);
+}
+
+.foot-container .foot-box .social-icon {
+  filter: invert(0.5);
+}
+
+.foot-container .foot-box .social-icon:hover {
+  filter: invert(0);
+}
+
+/* -----FOOTER-COLORS----- */
+
+.footer {
+  border-top: 1px dotted var(--LightGrey);
+  background: var(--GreyWhite);
+}
+
+.foot-box,
+.foot-box a {
+  color: var(--LightColorGrey);
+}
+
+.foot-nav-link:hover {
+  color: var(--LightBlack);
+}
+
+.foot-cont-link:hover {
+  color: var(--LightBlack);
+}
+
+.foot-icon {
+  fill: var(--LightGrey);
+}
+
+.foot-nav-link:hover .foot-icon {
+  fill: var(--LightBlack);
+}
+
+.foot-cont-link:hover .foot-icon {
+  fill: var(--LightBlack);
+}

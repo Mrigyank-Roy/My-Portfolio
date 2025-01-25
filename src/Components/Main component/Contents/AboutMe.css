@@ -1,0 +1,109 @@
+/* ************************* */
+/* ABOUT ME */
+/* ************************* */
+.aboutMeSection {
+  height: 95vh;
+  padding: 2.6rem 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.2rem;
+  gap: 1.2rem;
+}
+
+/* ************************* */
+/* MEMOJI */
+/* ************************* */
+.memoji-img {
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memoji-working {
+  height: 40rem;
+  width: 40rem;
+  border-radius: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ************************* */
+/* CONTENT */
+/* ************************* */
+.content {
+  font-family: "Sen", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.08rem;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+
+.heading-tertiary {
+  font-size: 3.4rem;
+  font-weight: 600;
+}
+
+.content span {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.content .desc {
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* ************************* */
+/* CONTACT-INFO */
+/* ************************* */
+.box-container {
+  margin-top: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.contact-link:link,
+.contact-link:visited {
+  text-decoration: none;
+}
+
+.contact-link:link span,
+.contact-link:visited span,
+.place span {
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-link:link span:last-child,
+.contact-link:visited span:last-child,
+.place span:last-child {
+  color: #181818;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ************************* */
+/* RESUME-BUTTON */
+/* ************************* */
+.res-btn {
+  position: absolute;
+  bottom: 5rem;
+}
+
+.res-link:link,
+.res-link:visited {
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 550;
+  border-radius: 1rem;
+  padding: 1.2rem 4.2rem;
+  transition: all 0.3s ease-in-out;
+}

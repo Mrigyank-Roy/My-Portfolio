@@ -1,0 +1,101 @@
+/* ************************* */
+/* PROJECTS */
+/* ************************* */
+.proSection {
+  padding: 2.6rem 0 8.6rem 0;
+}
+
+.pro-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.2rem;
+  margin: 2rem;
+}
+
+.pro-box {
+  border-radius: 0.8rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  height: 30rem;
+}
+
+.pro-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-content {
+  height: 100%;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  position: absolute;
+  top: 85%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+
+/* ************************* */
+/* PRO-INFO-HIDDEN */
+/* ************************* */
+.box-content .tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.box-content .tag h3 {
+  font-size: 2rem;
+  font-weight: 450;
+}
+
+.pro-box:hover .box-content {
+  top: 25%;
+}
+
+/* ************************* */
+/* PRO-DESC */
+/* ************************* */
+.pro-desc {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pro-desc p {
+  font-size: 1.8rem;
+}
+
+.pro-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.pro-btns .pro-btn {
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  margin-right: 2rem;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.pro-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}

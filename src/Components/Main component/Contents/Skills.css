@@ -1,0 +1,49 @@
+/* ************************* */
+/* SKILLS */
+/* ************************* */
+.skillsSection {
+  padding: 2.6rem 0;
+}
+
+.skills {
+  margin: 2rem 4rem;
+  padding: 2rem;
+}
+
+.skills-container {
+  padding: 2.2rem;
+  border-radius: 0.8rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+/* ************************* */
+/* SKILL-CONTAIN */
+/* ************************* */
+.bar {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.6rem;
+  transition: all 0.3s ease-in-out;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+}
+
+.bar img {
+  transition: inherit;
+}
+
+.info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.info img {
+  height: 7.4rem;
+  width: 7.4rem;
+}

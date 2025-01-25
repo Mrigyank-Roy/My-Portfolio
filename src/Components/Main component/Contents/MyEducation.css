@@ -1,0 +1,78 @@
+/* ************************* */
+/* EDUCATION */
+/* ************************* */
+.eduSection {
+  padding: 2.6rem 0 8.6rem 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.quote {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* ************************* */
+/* EDU-CONTAIN */
+/* ************************* */
+.edu-container {
+  width: 100%;
+  padding: 3.4rem 10%;
+}
+
+.edu-contents {
+  padding: 0 3rem;
+}
+
+/* ************************* */
+/* EDU-BOX */
+/* ************************* */
+
+.edu-box {
+  position: relative;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.edu-box:hover {
+  border: 0.1rem solid transparent;
+}
+
+.edu-box::before {
+  content: "";
+  position: absolute;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  right: calc(100% + 2.2rem);
+  top: 0;
+}
+
+/* ************************* */
+/* EDU-CONTENT */
+/* ************************* */
+.edu-box h4 {
+  position: relative;
+}
+
+.edu-box h3 {
+  font-size: 1.8rem;
+  padding: 1rem 0 0.6rem;
+}
+
+.edu-box p {
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+.stream {
+  font-weight: 500;
+}
+
+.edu-container .edu-contents .edu-box .location {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}

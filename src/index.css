@@ -1,0 +1,64 @@
+/* Avenir Next (Sen) font-family */
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+
+/* Rubik */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+
+#root {
+  position: relative;
+}
+
+section {
+  font-size: 1.8rem;
+}
+
+.sec-container {
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-gap {
+  gap: 7rem;
+}
+
+/* ************************* */
+/* HEADING-COMMON */
+/* ************************* */
+
+.headIcon {
+  height: 3.4rem;
+  width: 4.4rem;
+}
+
+.heading-secondary {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+  padding: 1.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  text-align: center;
+}
