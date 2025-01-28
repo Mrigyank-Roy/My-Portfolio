@@ -73,7 +73,7 @@ const myProjectsData = [
     proTag: "Portfolio",
     proDesc: "Created this portfolio using React js.",
     proVisit: "",
-    proCode: "https://github.com/Mrigyank-Roy/My-Portfolio/tree/master",
+    proCode: "",
   },
   {
     proImg: ClipbordSS,
