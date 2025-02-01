@@ -13,12 +13,12 @@ const loadSVG = [
   // {
   //   sName: "Facebook Icon",
   //   logo: fb,
-  //   href: "https://www.facebook.com/arunav999/",
+  //   href: "",
   // },
   // {
   //   sName: "Instagram Icon",
   //   logo: insta,
-  //   href: "https://www.instagram.com/arunav_999/",
+  //   href: "",
   // },
   {
     sName: "Linkedin Icon",
@@ -58,7 +58,7 @@ const loadSVG = [
   // {
   //   sName: "Codepen Icon",
   //   logo: code,
-  //   href: "https://codepen.io/SLYTERKIT",
+  //   href: "",
   // },
 ];
 
